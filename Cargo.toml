@@ -11,5 +11,5 @@ repository = "http://github.com/tailhook/signal"
 documentation = "http://tailhook.github.io/signal/"
 
 [dependencies]
-nix = "0.6.0"
+nix = { git = "https://github.com/asomers/nix.git" }
 libc = "0.2.12"
